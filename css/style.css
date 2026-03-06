@@ -1,0 +1,76 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+.caja1{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    
+}
+.caja2{
+    display: flex;
+    
+}
+.container{
+    background-color:lawngreen ;
+}
+.a{
+    margin: 7px 0px 0px 7px;
+}
+.empanadas{
+    background-color: white;
+    display: flex;
+    margin: 10px 0px 10px 2px;
+    border-radius: 20px;
+    
+}
+.cantidadem{
+    width: 30px;
+    height: 30px;
+    margin: 100px 10px 100px 10px;
+}
+
+.malta{
+    background-color: white;
+    display: flex;
+    margin: 10px 0px 10px 2px;
+    border-radius: 20px;
+}
+.paste{
+    background-color: white;
+    display: flex;
+    margin: 10px 0px 10px 2px;
+    border-radius: 20px;
+}
+.refrescos{
+    background-color: white;
+    display: flex;
+    margin: 10px 10px 10px 2px;
+    border-radius: 20px;
+}
+button{
+    height:20px ;
+    margin: 100px 10px 0px 0px;
+    
+}
+.cantidad{
+    margin-top: 100px;
+    
+}
+p{
+    margin-top: 100px;
+    padding: 0px 10px;
+}
+h2{
+    margin-top: 100px;
+    padding: 0px 10px 0px 10px;
+}
+h4{
+    margin: 200px 5px 350px 10px;
+
+}
+
+
