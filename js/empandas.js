@@ -1,17 +1,34 @@
 let a=1.35;
-
-
-let cantidadem=document.querySelector('.cantidadem');
+let b=5;
+let cantidadem=document.querySelector('.cantidadem').innerHTML;
 let calcular=document.querySelector('.calcular');
 let montoem=document.querySelector('.montoem');
+let jorge=document.getElementById('jorge');
+let n=document.querySelector('.n');
+let unidades=document.querySelector('.unidades').innerHTML;
+
 let empanada=a*cantidadem;
-let total=empanada;
+
+
 
 
 calcular.addEventListener('click',()=>{
-    montoem.textContent=total;   
-
+    cantidadem ++;
+    montoem.innerHTML=cantidadem*a;
+    cantidadem.innerHTML=cantidadem;
+     
+   
+    console.log('total: ',cantidadem)
+    // function name() {
+    //     return 100;
+    // }
 })
+calcular.addEventListener('click',()=>{
+    unidades++;
+    n.innerHTML=unidades;
+})
+
+
 
 
 
