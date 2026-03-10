@@ -1,8 +1,21 @@
 body{
     background-color: aquamarine;
 }
+
+.estadistica{
+    text-align: right;
+}
 h1{
     text-align: center;
+    padding: 0px 900px 0px 0px;
+}
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    height: 9%;
+}
+.n{
+    margin: 100px 7px 0px 0px;
 }
 .caja1{
     display: flex;
